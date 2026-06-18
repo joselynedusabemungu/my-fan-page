@@ -21,7 +21,7 @@ export default function About() {
         margin: "0 auto",
       }}>
         <div>   
-          <p style={{ textAlign: "left", color: "#ffffff", fontSize: "1rem", lineHeight: "1.9" }}>Hi there! I am your Joselyne! I am just a fellow who studies the world as a book. If you want to see the world in its different angles, there are many the pages of to always explore! Keep learning.</p></div>
+          <p style={{ textAlign: "left", color: "#ffffff", fontSize: "1rem", lineHeight: "1.9" }}>Hi there! I am your Joselyne! I study the world as an interesting book with a lot to explore. If you want to see the world in its different angles, there many pages and chapters that always awaits! Keep learning.</p></div>
           <Image 
       src="/Profile.png" 
       alt="About me" 
