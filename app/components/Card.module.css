@@ -1,0 +1,31 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02); /* Smooth dynamic lifting */
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+.card-image {
+  margin-bottom: 1rem;
+}
+
+.card-content {
+  order: 1;
+}
+
+.card-image,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.like-button {
+  margin-top: 1rem;
+}
