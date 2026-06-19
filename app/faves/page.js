@@ -14,7 +14,9 @@ export default async function FaveDetail({ params }) {
 
   return (
     <main>
-      <h1>{item.emoji} {item.name}</h1>
+      <h1>
+        {item.emoji} {item.name}
+      </h1>
       <p>{item.blurb}</p>
       <p>{"⭐".repeat(item?.rating || 0)}</p>
     </main>
