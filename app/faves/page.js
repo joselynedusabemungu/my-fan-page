@@ -1,4 +1,4 @@
-import { items } from '../../Data'; 
+import { items } from "../../data";
 
 export default async function FaveDetail({ params }) {
   const { id } = await params;
@@ -16,7 +16,7 @@ export default async function FaveDetail({ params }) {
     <main>
       <h1>{item.emoji} {item.name}</h1>
       <p>{item.blurb}</p>
-      <p>{"⭐".repeat(item.rating)}</p>
+      <p>{"⭐".repeat(item?.rating || 0)}</p>
     </main>
   );
 }
