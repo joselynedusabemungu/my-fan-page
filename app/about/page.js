@@ -5,7 +5,7 @@ export default function About() {
   return (
     
     <main>
-      <h1 style={{ marginTop: "3rem", textAlign: "center", color: "#c6901d" }}>About this page</h1>   
+      <h1 style={{ fontFamily: "Poppins", marginTop: "3rem", textAlign: "center", color: "#c6901d" }}>About this page</h1>   
       <div style={{
         display: "flex",
         flexDirection: "row",
@@ -21,7 +21,7 @@ export default function About() {
         margin: "0 auto",
       }}>
         <div>   
-          <p style={{ textAlign: "left", color: "#ffffff", fontSize: "1rem", lineHeight: "1.9" }}>Hi there! I am your Joselyne! I study the world as an interesting book with a lot to explore. If you want to see the world in its different angles, there many pages and chapters that always awaits! Keep learning.</p></div>
+          <p style={{ fontFamily:"poppins", textAlign: "left", color: "#ffffff", fontSize: "1.3rem", lineHeight: "1.9" }}>Hi there! I am your Joselyne! I study the world as an interesting book with a lot to explore. If you want to see the world in its different angles, there many pages and chapters that always awaits! Keep learning.</p></div>
           <Image 
       src="/Profile.png" 
       alt="About me" 
