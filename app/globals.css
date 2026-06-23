@@ -9,7 +9,8 @@ body {
   color:white;
   padding: 2rem;
   background: rgb(38, 37, 37);
-  font-family: 'Roboto', sans-serif;
+  font-family: poppins;
+  font-size: 18px;
 }
 
 h1 {
@@ -45,4 +46,5 @@ button {
   color: white;
   box-shadow: 0 4px 15px rgba(206, 162, 17, 0.05);
 }
+
   

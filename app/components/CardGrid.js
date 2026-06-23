@@ -8,7 +8,7 @@ export default function CardGrid({ items }) {
       {items.map((item) => (
         <Card
           key={item.id}
-          name={<Link href={"/faves/" + item.id}>{item.name}</Link>}
+          name={item.name}
           blurb={item.blurb}
           rating={item.rating}
           emoji={item.emoji}
